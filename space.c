@@ -2,17 +2,17 @@
 #include<string.h>
 void main()
 {
-	int sum=0 ,a;
-	char str[50];
+	int add=0 ,c;
+	char str[100];
   printf("Enter the string");
   gets(str);
-	a=strlen(str);
+	c=strlen(str);
 	for(int i=0;i<=a;i++)
 	{
 		if(str[i]==' ')
 		{
-		    sum=sum+1;
+		    add=add+1;
 		}
 	}
-	printf("The no of space in the line is %d\n",sum);
+	printf("The number of space in the line is %d\n",add);
 }
